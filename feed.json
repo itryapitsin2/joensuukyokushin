@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "joensuukyokushin",
+    "description": "",
+    "home_page_url": "https://itryapitsin2.github.io/joensuunkyokushin",
+    "feed_url": "https://itryapitsin2.github.io/joensuunkyokushin/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "itryapitsin"
+    },
+    "items": [
+        {
+            "id": "https://itryapitsin2.github.io/joensuunkyokushin/test-post.html",
+            "url": "https://itryapitsin2.github.io/joensuunkyokushin/test-post.html",
+            "title": "Test post",
+            "summary": "Hello world",
+            "content_html": "Hello world",
+            "author": {
+                "name": "itryapitsin"
+            },
+            "tags": [
+            ],
+            "date_published": "2019-11-05T23:53:52+02:00",
+            "date_modified": "2019-11-05T23:53:52+02:00"
+        }
+    ]
+}
