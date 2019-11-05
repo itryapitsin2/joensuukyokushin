@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>joensuukyokushin</title>
-    <link href="https://itryapitsin2.github.io/joensuunkyokushin/feed.xml" rel="self" />
-    <link href="https://itryapitsin2.github.io/joensuunkyokushin" />
-    <updated>2019-11-06T00:06:38+02:00</updated>
+    <link href="https://itryapitsin2.github.io/joensuukyokushin/feed.xml" rel="self" />
+    <link href="https://itryapitsin2.github.io/joensuukyokushin" />
+    <updated>2019-11-06T00:09:19+02:00</updated>
     <author>
         <name>itryapitsin</name>
     </author>
-    <id>https://itryapitsin2.github.io/joensuunkyokushin</id>
+    <id>https://itryapitsin2.github.io/joensuukyokushin</id>
 
     <entry>
         <title>Test post</title>
         <author>
             <name>itryapitsin</name>
         </author>
-        <link href="https://itryapitsin2.github.io/joensuunkyokushin/test-post.html"/>
-        <id>https://itryapitsin2.github.io/joensuunkyokushin/test-post.html</id>
+        <link href="https://itryapitsin2.github.io/joensuukyokushin/test-post.html"/>
+        <id>https://itryapitsin2.github.io/joensuukyokushin/test-post.html</id>
 
         <updated>2019-11-05T23:53:52+02:00</updated>
             <summary>

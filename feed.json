@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "joensuukyokushin",
     "description": "",
-    "home_page_url": "https://itryapitsin2.github.io/joensuunkyokushin",
-    "feed_url": "https://itryapitsin2.github.io/joensuunkyokushin/feed.json",
+    "home_page_url": "https://itryapitsin2.github.io/joensuukyokushin",
+    "feed_url": "https://itryapitsin2.github.io/joensuukyokushin/feed.json",
     "user_comment": "",
     "author": {
         "name": "itryapitsin"
     },
     "items": [
         {
-            "id": "https://itryapitsin2.github.io/joensuunkyokushin/test-post.html",
-            "url": "https://itryapitsin2.github.io/joensuunkyokushin/test-post.html",
+            "id": "https://itryapitsin2.github.io/joensuukyokushin/test-post.html",
+            "url": "https://itryapitsin2.github.io/joensuukyokushin/test-post.html",
             "title": "Test post",
             "summary": "Hello world",
             "content_html": "Hello world",
