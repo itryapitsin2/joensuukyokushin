@@ -97,3 +97,7 @@ input:checked + .slider:before {
 .inverted-colors {
     filter: invert(100%);
 }
+
+.inverted-colors .rounded-circle {
+    filter: invert(100%);
+}
