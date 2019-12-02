@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Joensuun Kyokushin</title>
+    <title>Kyokushin karate</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
 
@@ -16,29 +16,45 @@
 
 
     <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
+        @media (min-width: 768px) {
+            .bg {
+                background-image: url('https://i.pinimg.com/originals/7e/bf/e8/7ebfe84449b26698697f39d6b833e281.jpg');
+                background-repeat: no-repeat;
+                background-position: bottom right;
+                position: absolute;
+                opacity: .75;
+                bottom: 0;
+                right: 0;
+                height: 500px;
+                width: 600px;
+                z-index: 1;
+                filter: blur(2px);
+            }
         }
 
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
+        body {
+            background-color: #000 !important;
+            filter: invert(100%);
+        }
+
+        .cover-container {
+            z-index: 2;
+        }
+
+        .masthead {
+            z-index: 3;
         }
     </style>
     <!-- Custom styles for this template -->
     <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
 </head>
 <body class="text-center">
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="masthead mb-auto">
+<div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <div class="bg"></div>
+
+    <header class="masthead mx-auto mb-auto d-flex w-50 p-3 mx-auto flex-column">
         <div class="inner">
-            <h3 class="masthead-brand">Joensuun Kyokushin</h3>
+            <h3 class="masthead-brand">Kyokushin karate</h3>
             <nav class="nav nav-masthead justify-content-center">
                 <a class="nav-link active" href="./index.html">Home</a>
                 <a class="nav-link" href="./timetable.html">Timetable</a>
@@ -47,19 +63,16 @@
         </div>
     </header>
 
-    <main role="main" class="inner cover">
-        <h1 class="cover-heading">Cover your page.</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the
-            text, and add your own fullscreen background photo to make it your own.</p>
+    <main role="main" class="inner cover cover-container mx-auto">
+        <h1 class="cover-heading">Coming soon...</h1>
         <p class="lead">
-            <a href="#" class="btn btn-lg btn-secondary">Learn more</a>
+            Cover is a one-page template for building simple and beautiful home pages.
+            Download, edit the text, and add your own fullscreen background photo to make it your own.
         </p>
     </main>
 
     <footer class="mastfoot mt-auto">
         <div class="inner">
-            <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a
-                    href="https://twitter.com/mdo">@mdo</a>.</p>
         </div>
     </footer>
 </div>
