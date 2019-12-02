@@ -6,31 +6,29 @@
     <meta name="description" content="Kyokushin Karate in Joensuu">
     <meta name="author" content="Iliya Tryapitsin">
 
-    <meta property="og:url" content="https://itryapitsin2.github.io/joensuukyokushin" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Kyokushin Karate in Joensuu" />
-    <meta property="og:description" content="Kyokushin karate for kids and adults in Joensuu. Join us." />
-    <meta property="og:image" content="https://i.pinimg.com/originals/4d/5d/58/4d5d5814952158307736cbfe2ab8a19e.png" />
+    <meta property="og:url" content="https://itryapitsin2.github.io/joensuukyokushin"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Kyokushin Karate in Joensuu"/>
+    <meta property="og:description" content="Kyokushin karate for kids and adults in Joensuu. Join us."/>
+    <meta property="og:image" content="https://i.pinimg.com/originals/4d/5d/58/4d5d5814952158307736cbfe2ab8a19e.png"/>
 
     <title>Kyokushin karate</title>
 
     <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"/>
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
     <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet"/>
     <link href="assets/css/common.css" rel="stylesheet"/>
-
     <link href="assets/css/timetable.css" rel="stylesheet"/>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
-
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=e68fac0b-455b-4d64-9922-642cc1f2d5d3&lang=fi_FI&pt=62.602448,29.7524578" type="text/javascript">    </script>
     <script src="assets/js/common.js"></script>
 </head>
 <body class="text-center inverted-colors">
 <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <div class="bg"></div>
-
     <header class="masthead mx-auto mb-auto d-flex w-50 p-3 mx-auto flex-column">
         <div class="inner">
             <h3 class="masthead-brand">Kyokushin karate</h3>
@@ -39,8 +37,10 @@
                 <a class="nav-link active" href="./timetable.html">Timetable</a>
                 <a class="nav-link" href="./contacts.html">Contact</a>
                 <a class="nav-link" href="https://www.instagram.com/joensuukyokushin/"><i class="fab fa-instagram"></i></a>
-                <a class="nav-link" href="https://www.facebook.com/joensuukyokushin/"><i class="fab fa-facebook-square"></i></a>
-                <a class="nav-link" href="https://www.youtube.com/channel/UCxP8YPC2zOVgUgXxR5X1s9g"><i class="fab fa-youtube"></i></a>
+                <a class="nav-link" href="https://www.facebook.com/joensuukyokushin/"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a class="nav-link" href="https://www.youtube.com/channel/UCxP8YPC2zOVgUgXxR5X1s9g"><i
+                        class="fab fa-youtube"></i></a>
                 <a class="nav-link" href="#"><i class="fab fa-vk"></i></a>
             </nav>
             <i class="fas fa-moon fa-lg" style="margin-bottom: -5px"></i>
@@ -116,8 +116,10 @@
 
     <footer class="mastfoot mt-auto">
         <div class="inner">
-            <p></p>
-        </div>
+            <div class="mapouter">
+                <div class="gmap_canvas" id="map"></div>
+                </div>
+            </div>
     </footer>
 </div>
 

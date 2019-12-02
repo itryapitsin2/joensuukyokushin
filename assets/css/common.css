@@ -18,12 +18,20 @@ body {
     background-color: #000 !important;
 }
 
-.cover-container {
+.p-3 {
+    padding: 1rem 0 !important;
+}
+
+.cover-container, .mastfoot {
     z-index: 2;
 }
 
 .masthead {
     z-index: 3;
+}
+
+.mastfoot {
+
 }
 
 .switch {

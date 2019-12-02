@@ -15,3 +15,18 @@
 .jumbotron {
     background-color: initial;
 }
+
+.mapouter {
+    filter: invert(100%);
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 100%;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 100%;
+}
