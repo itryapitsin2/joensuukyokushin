@@ -1,0 +1,17 @@
+
+.cover-container {
+    z-index: 2;
+    max-width: 68em !important;
+}
+
+.masthead {
+    z-index: 3;
+}
+
+.card {
+    color: #212529;
+}
+
+.jumbotron {
+    background-color: initial;
+}

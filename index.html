@@ -5,59 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Kyokushin Karate in Joensuu">
     <meta name="author" content="Iliya Tryapitsin">
-    
+
     <meta property="og:url" content="https://itryapitsin2.github.io/joensuukyokushin" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Kyokushin Karate in Joensuu" />
     <meta property="og:description" content="Kyokushin karate for kids and adults in Joensuu. Join us." />
     <meta property="og:image" content="https://i.pinimg.com/originals/4d/5d/58/4d5d5814952158307736cbfe2ab8a19e.png" />
-    
+
     <title>Kyokushin karate</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
-
-    <!-- Bootstrap core CSS -->
     <link href="https://getbootstrap.com/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-
-    <style>
-        @media (min-width: 768px) {
-            .bg {
-                background-image: url('https://i.pinimg.com/originals/7e/bf/e8/7ebfe84449b26698697f39d6b833e281.jpg');
-                background-repeat: no-repeat;
-                background-position: bottom right;
-                position: absolute;
-                opacity: .75;
-                bottom: 0;
-                right: 0;
-                height: 500px;
-                width: 600px;
-                z-index: 1;
-                filter: blur(2px);
-            }
-        }
-
-        body {
-            background-color: #000 !important;
-            filter: invert(100%);
-        }
-
-        .cover-container {
-            z-index: 2;
-        }
-
-        .masthead {
-            z-index: 3;
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
+    <link href="https://getbootstrap.com/docs/4.3/examples/cover/cover.css" rel="stylesheet"/>
+    <link href="assets/css/common.css" rel="stylesheet"/>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"></script>
+    <script src="assets/js/common.js"></script>
 </head>
-<body class="text-center">
+<body class="text-center inverted-colors">
 <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
     <div class="bg"></div>
 
@@ -73,6 +40,12 @@
                 <a class="nav-link" href="https://www.youtube.com/channel/UCxP8YPC2zOVgUgXxR5X1s9g"><i class="fab fa-youtube"></i></a>
                 <a class="nav-link" href="#"><i class="fab fa-vk"></i></a>
             </nav>
+            <i class="fas fa-moon fa-lg" style="margin-bottom: -5px"></i>
+            <label class="switch">
+                <input type="checkbox" checked onchange="toggleBackground();">
+                <span class="slider round"></span>
+            </label>
+            <i class="fas fa-sun fa-lg" style="margin-bottom: -5px"></i>
         </div>
     </header>
 
