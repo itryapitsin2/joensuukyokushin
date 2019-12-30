@@ -16,6 +16,7 @@
 
 html, body {
     background-color: #000 !important;
+    height: unset;
 }
 
 .p-3 {
