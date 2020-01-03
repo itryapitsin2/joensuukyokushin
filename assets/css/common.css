@@ -14,9 +14,15 @@
     }
 }
 
+a {
+    color: #000;
+}
+
 html, body {
-    background-color: #000 !important;
+    background-color: #fff !important;
+    color: #000 !important;
     height: unset;
+    box-shadow: unset;
 }
 
 .p-3 {
@@ -95,10 +101,20 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
-.inverted-colors {
-    filter: invert(100%);
+/*.inverted-colors {*/
+/*    filter: invert(100%);*/
+/*}*/
+
+/*.inverted-colors .rounded-circle,*/
+/*.inverted-colors img,*/
+/*.inverted-colors .original {*/
+/*    filter: invert(100%);*/
+/*}*/
+
+.navbar-dark {
+    background-color: #000 !important;
 }
 
-.inverted-colors .rounded-circle {
-    filter: invert(100%);
+.bg-dark {
+    background-color: #000 !important;
 }

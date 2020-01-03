@@ -17,7 +17,6 @@
 }
 
 .mapouter {
-    filter: invert(100%);
     position: relative;
     text-align: right;
     height: 500px;
