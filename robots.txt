@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /.idea/ 
 Disallow: /assets/
-Sitemap: joensuukyokushinkai.fi/sitemap.xml
+Sitemap: http://joensuukyokushinkai.fi/sitemap.xml
