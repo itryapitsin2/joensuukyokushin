@@ -122,3 +122,8 @@ input:checked + .slider:before {
 .bg-dark {
     background-color: #000 !important;
 }
+
+body {
+    text-shadow: 0 0.02rem 0.02rem rgba(0, 0, 0, .25);
+}
+    
