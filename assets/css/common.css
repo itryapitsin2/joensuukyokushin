@@ -37,6 +37,10 @@ html, body {
     z-index: 2;
 }
 
+.avatar {
+    max-height: 170px;
+}
+
 .masthead {
     z-index: 3;
 }
